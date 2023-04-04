@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+.container {
+    /* background-color: aqua; */
+    width: 90%;
+    height: 90vh;
+    /* overflow: hidden; */
+
+}
+
+.bike {
+display: flex;
+margin-left: 6rem;
+/* margin-top: 1rem; */
+}
+.bike img {
+height: 30px;
+width: 30px;
+margin-top: 1.3rem;
+}
+h2 {
+    margin-left: .4rem;
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-top: 1.3rem;
+}
+
+
+.btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* margin-left: 53rem; */
+background-color: black;
+position: relative;
+left: 58rem;
+bottom: 26px;
+width:15%;
+padding: .7rem; 
+color: white;
+border-radius: 20px;
+cursor: pointer;
+
+}
+
+.content {
+    display: flex;
+    justify-content:space-between;
+}
+.bmw {
+    margin-left: 6rem;
+    margin-top: 3rem;
+}
+
+h3 {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    color: brown;
+
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#btn1 {
+    width: 50px;
+    height: 50px; 
+    border-radius: 50px;
+    background-color: #07e65c;
+    cursor: pointer;
+    border: none;
+}
+#btn2 {
+    width: 50px;
+    height: 50px; 
+    border-radius: 50px;
+    background-color:#2341ea ;
+    cursor: pointer;
+    border: none;
+}
+
+#btn3 {
+    width: 50px;
+    height: 50px; 
+    border-radius: 50px;
+    background-color:#0a0909;
+    cursor: pointer;
+}
+
+.main-gg {
+}
+#motor{
+     transition: .6s all ease-in-out;
+
+ }
+
+ #motor:hover {
+    transform: translateY(-10px);
+ }
